@@ -1,0 +1,62 @@
+sup {
+  pointer-events: none;
+}
+#grid-wrapper {
+  position: relative;
+  display: inline-block;
+}
+#grid-wrapper .size {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+#grid-wrapper .size.increment.width {
+  top: 50%;
+  right: -90px;
+}
+#grid-wrapper .size.increment.height {
+  bottom: -90px;
+  left: 50%;
+}
+#grid-wrapper .size.decrement.width {
+  top: 50%;
+  right: -45px;
+}
+#grid-wrapper .size.decrement.height {
+  bottom: -45px;
+  left: 50%;
+}
+#grid {
+  display: grid;
+}
+#grid .cell {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  margin: -1px -1px 0 0;
+  font-size: 0.55em;
+  line-height: 2.5;
+  cursor: pointer;
+}
+#grid .cell.black {
+  background: #000;
+  color: #fff;
+}
+#form-wrapper {
+  display: flex;
+}
+#form-wrapper .area {
+  display: block;
+}
+#form-wrapper .area .field {
+  display: flex;
+}
+#form-wrapper .area .field .letter {
+  border: 1px solid;
+  margin-left: -1px;
+  width: 21px;
+  height: 21px;
+  margin-bottom: 5px;
+}

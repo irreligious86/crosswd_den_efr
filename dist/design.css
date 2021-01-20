@@ -1,0 +1,66 @@
+#app {
+    padding: 20px;
+}
+
+#grid-wrapper {
+    padding: 20px;
+}
+
+#grid {
+    background: rgba(157, 192, 86, 0.3);
+    box-shadow: 27px 22px 18px -10px #77666675;
+}
+
+button.size {
+    box-shadow: 0px 0px 3px 2px #977f7f71;
+    border-radius: 16px;
+}
+
+.cell {
+
+}
+
+.cell:hover > sup {
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 0 0 2px  rgb(176, 176, 192);
+    background: rgba(150, 150, 150, .75);
+}
+
+#form-wrapper {
+    margin-top: 100px;
+}
+
+.area {
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+    padding: 8px;
+    background: rgba(150, 150, 150, .1);
+    box-shadow: 2px 2px 3px 3px rgba(150, 150, 150, .45);
+}
+
+.area  .letter {
+    background: rgba(57, 173, 223, 0.2);
+    padding: 4px;
+    margin: 2px 3px 2px 20px;
+    /* position: relative; */
+}
+.area > .field  {
+    margin-left: 38px;
+}
+
+.letter {
+position: relative;
+}
+
+big {
+    position: absolute;
+    left: -38px;
+}
+
+.field:hover > .letter {
+    box-shadow: 0 0 3px 1px greenyellow;
+    background: rgba(57, 173, 223, 0.329);
+
+}

@@ -1,0 +1,61 @@
+sup
+  pointer-events none
+
+#grid-wrapper
+  position relative
+  display inline-block
+
+  .size
+    position absolute
+    width 40px
+    height 40px
+    text-align center
+
+    &.increment
+      &.width
+        top 50%
+        right -90px
+      &.height
+        bottom -90px
+        left 50%
+
+    &.decrement
+      &.width
+        top 50%
+        right -45px
+      &.height
+        bottom -45px
+        left 50%
+
+#grid
+  display grid
+  
+  .cell
+    text-align center
+    width 20px
+    height 20px
+    border 1px solid #000
+    margin -1px -1px 0 0
+    font-size 0.55em
+    line-height 2.5
+    cursor pointer
+
+    &.black
+      background #000
+      color #fff
+
+#form-wrapper
+  display flex
+
+  .area
+    display block
+
+    .field
+      display flex
+
+      .letter
+        border 1px solid
+        margin-left -1px
+        width 21px
+        height 21px
+        margin-bottom 5px
